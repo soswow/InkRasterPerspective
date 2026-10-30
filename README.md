@@ -64,6 +64,10 @@ Use this when the four-corner path is drawn **on top of the photo**, around some
 2. Select the path and the image.
 3. **Extensions** > **Raster Perspective** > **Rectified Crop**
 
+See below:
+
+![How to use Rectified Crop](imgs/rectified-crop.gif)
+
 The tool crops to that path and warps it so all four corners are 90 degrees. The result is a new image placed at the path's top-left. Its width is the longer of the two horizontal edges of the quad, and its height is the longer of the two vertical edges, measured in the photo's pixels.
 
 Restart Inkscape after installing this menu item so the new entry is picked up.
